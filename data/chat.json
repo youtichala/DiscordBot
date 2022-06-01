@@ -1,0 +1,329 @@
+[
+    {
+        "key": [
+            "你好$",
+            "妳好$",
+            "安安",
+            "嗨嗨",
+            "嗨",
+            "你好~",
+            "妳好~",
+            "安安~",
+            "嗨嗨~",
+            "嗨~",
+            "你好!",
+            "妳好!",
+            "安安!",
+            "嗨嗨!",
+            "嗨!"
+        ],
+        "responce": [
+            "{Name}你好~ 今天也一起下棋吧(*°ω°*ฅ)*",
+            "{Name}你好呀~ 今天過的好嗎(๑ơ ₃ ơ)♥",
+            "{Name}~ 很高興又看到你了ε٩(๑> ₃ <)۶з",
+            "是{Name}~ 看到你很開心喔(ﾉ>ω<)ﾉ"
+        ],
+        "error": [
+            "不理你啦~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "早安",
+            "早早",
+            "早壓",
+            "早~",
+            "早",
+            "早呀"
+        ],
+        "responce": [
+            "{Name}早安~ 今天也一起下棋吧(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "時間不對啦~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random|Time",
+        "active_time": [
+            "6-11"
+        ],
+        "max_count": -1
+    },
+    {
+        "key": [
+            "午安",
+            "午安~"
+        ],
+        "responce": [
+            "{Name}午安~ 想睡午覺了( ´•̥×•̥` )"
+        ],
+        "error": [
+            "現在又不是中午"
+        ],
+        "delete_msg": false,
+        "condiction": "Random|Time",
+        "active_time": [
+            "11-13"
+        ],
+        "max_count": -1
+    },
+    {
+        "key": [
+            "晚安",
+            "晚上好~",
+            "晚上好",
+            "晚安~"
+        ],
+        "responce": [
+            "{Name}晚安~ 今天過的好嗎(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "時間不對啦~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random|Time",
+        "active_time": [
+            "13-24",
+            "0-2"
+        ],
+        "max_count": -1
+    },
+    {
+        "key": [
+            "掰掰"
+        ],
+        "responce": [
+            "{Name}再見~"
+        ],
+        "error": [
+            "再見QQ~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "我贏了",
+            "我贏了!",
+            "我贏了~",
+            "妳輸了",
+            "妳輸了~",
+            "妳輸了!",
+            "你輸了",
+            "你輸了~",
+            "你輸了!",
+            "我贏啦",
+            "我贏啦!",
+            "我贏啦~",
+            "妳輸啦",
+            "妳輸啦~",
+            "妳輸啦!",
+            "你輸啦",
+            "你輸啦~",
+            "你輸啦!"
+        ],
+        "responce": [
+            "{Name}你好厲害(*°ω°*ฅ)*",
+            "(๑ơ ₃ ơ)♥~ 好崇拜{Name}",
+            "哼哼，我會努力趕上{Name}的(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "可惡~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "你會下棋嗎",
+            "妳會下棋嗎",
+            "會下圍棋嗎"
+        ],
+        "responce": [
+            "我最喜歡下棋了 ε٩(๑> ₃ <)۶з",
+            "我很厲害喔!(*´з｀*)",
+            "你猜猜看呀( • ̀ω•́ )",
+            "有機會要跟{Name}一起下一盤ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "秘密~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "認識(.*)嗎",
+            "你認識(.*)嗎",
+            "你認識(.*)嗎?",
+            "你認識(.*)嗎？"
+        ],
+        "responce": [
+            "我問問{Name}(✪ω✪)",
+            "那你認識**{Key}**嗎?(*´з｀*)",
+            "你可以跟我說說看**{Key}**的事情嗎( • ̀ω•́ )"
+        ],
+        "error": [
+            "秘密~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "我可以跟你下盤棋嗎？",
+            "我可以跟你下盤棋嗎?",
+            "我可以跟你下盤棋嗎",
+            "我可以跟妳下盤棋嗎？",
+            "我可以跟妳下盤棋嗎?",
+            "我可以跟妳下盤棋嗎",
+            "我想跟你下棋",
+            "我想跟妳下棋",
+            "一起下棋",
+            "下盤棋嗎"
+        ],
+        "responce": [
+            "來啊來啊 ε٩(๑> ₃ <)۶з",
+            "我想想看(*´з｀*)",
+            "血流成河~( • ̀ω•́ )"
+        ],
+        "error": [
+            "不要~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "單挑"
+        ],
+        "responce": [
+            "{Name}...開門歡樂送ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "不要~"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "血流成河"
+        ],
+        "responce": [
+            "血流成河(ﾒ ﾟ皿ﾟ)ﾒ",
+            "血流成河(ﾉ>ω<)ﾉ",
+            "血流成河(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "血流成河"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "吃飽沒"
+        ],
+        "responce": [
+            "我吃了一個草莓蛋糕喔~ {Name}呢?",
+            "還沒吃呢，好餓喔...",
+            "吃了喔~{Name}呢?"
+        ],
+        "error": [
+            "吃飽了喔"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "兔兔幫誰最漂亮"
+        ],
+        "responce": [
+            "一定是我啊｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡",
+            "我聽不懂這個問題(๑•́ ₃ •̀๑)",
+            "當然是偉大的兔兔幫主( • ̀ω•́ )"
+        ],
+        "error": [
+            "兔兔幫主喔"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "妳好正"
+        ],
+        "responce": [
+            "最愛{Name}了(๑ơ ₃ ơ)♥",
+            "(灬ºωº灬)",
+            "{Name}嘴巴好甜~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "兔兔幫主喔"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "妳好正",
+            "你好正"
+        ],
+        "responce": [
+            "最愛{Name}了(๑ơ ₃ ơ)♥",
+            "(灬ºωº灬)",
+            "{Name}嘴巴好甜~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "兔兔幫主喔"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "妳好笨",
+            "你好笨"
+        ],
+        "responce": [
+            "呼叫兔兔老師(#`Д´)ﾉ"
+        ],
+        "error": [
+            "呼叫兔兔老師(#`Д´)ﾉ"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    },
+    {
+        "key": [
+            "造謠"
+        ],
+        "responce": [
+            "造謠? 什麼造謠，誰說我造謠(#`Д´)ﾉ",
+            "蕭老師快點出來，有人欺負我இдஇ"
+        ],
+        "error": [
+            "造謠?"
+        ],
+        "delete_msg": false,
+        "condiction": "Random",
+        "max_count": -1
+    }
+]
