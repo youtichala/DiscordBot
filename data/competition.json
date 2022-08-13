@@ -1,0 +1,45 @@
+[
+    {
+        "user_id": 555555555,
+        "ogs_id": 555555555,
+        "error": 0,
+        "score": 0,
+        "free": {
+            "total_run": 0,
+            "combo": 0,
+            "history": [
+                {
+                    "user_id": 222222222,
+                    "ogs_id": 222222222,
+                    "rounds": 3,
+                    "win": 0,
+                    "games_id": [
+                        222222222,
+                        222222222,
+                        222222222
+                    ]
+                }
+            ]
+        },
+        "fixed": {
+            "total_run": 1,
+            "combo": 1,
+            "history": [
+                {
+                    "user_id": 11111111,
+                    "ogs_id": 11111111,
+                    "rounds": 1,
+                    "win": 1,
+                    "games_id": [
+                        11111111
+                    ]
+                }
+            ]
+        },
+        "event_history": [
+            "first_blood",
+            "moves_200",
+            "win_5"
+        ]
+    }
+]

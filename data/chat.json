@@ -5,7 +5,7 @@
             "妳好$",
             "安安",
             "嗨嗨",
-            "嗨",
+            "嗨&",
             "你好~",
             "妳好~",
             "安安~",
@@ -15,6 +15,8 @@
             "妳好!",
             "安安!",
             "嗨嗨!",
+            "$好$",
+            "$好~$",
             "嗨!"
         ],
         "responce": [
@@ -27,7 +29,26 @@
             "不理你啦~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "加油"
+        ],
+        "responce": [
+            "{Name}謝謝你~ 你也加油(๑ơ ₃ ơ)♥",
+            "謝謝{Name}~ 我們一起加油吧ε٩(๑> ₃ <)۶з"
+        ],
+        "error": [
+            "不理你啦~"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -36,8 +57,12 @@
             "早早",
             "早壓",
             "早~",
-            "早",
-            "早呀"
+            "早$",
+            "早呀",
+            "good morning",
+            "morning",
+            "Morning",
+            "Good Morning"
         ],
         "responce": [
             "{Name}早安~ 今天也一起下棋吧(*°ω°*ฅ)*"
@@ -46,7 +71,9 @@
             "時間不對啦~"
         ],
         "delete_msg": false,
-        "condiction": "Random|Time",
+        "selector": "Random|Time",
+        "method": "send",
+        "speed": 1,
         "active_time": [
             "6-11"
         ],
@@ -54,17 +81,41 @@
     },
     {
         "key": [
+            "下午安",
+            "下午好"
+        ],
+        "responce": [
+            "{Name}下午好~ 下午茶點起來(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "時間不對啦~"
+        ],
+        "delete_msg": false,
+        "selector": "Random|Time",
+        "method": "send",
+        "speed": 1,
+        "active_time": [
+            "13-17"
+        ],
+        "max_count": -1
+    },
+    {
+        "key": [
             "午安",
-            "午安~"
+            "午安~",
+            "good afternoon",
+            "Good Afternoon"
         ],
         "responce": [
             "{Name}午安~ 想睡午覺了( ´•̥×•̥` )"
         ],
         "error": [
-            "現在又不是中午"
+            "時間不對啦~"
         ],
         "delete_msg": false,
-        "condiction": "Random|Time",
+        "selector": "Random|Time",
+        "method": "send",
+        "speed": 1,
         "active_time": [
             "11-13"
         ],
@@ -75,7 +126,9 @@
             "晚安",
             "晚上好~",
             "晚上好",
-            "晚安~"
+            "晚安~",
+            "good night",
+            "Good Night"
         ],
         "responce": [
             "{Name}晚安~ 今天過的好嗎(*°ω°*ฅ)*"
@@ -84,9 +137,11 @@
             "時間不對啦~"
         ],
         "delete_msg": false,
-        "condiction": "Random|Time",
+        "selector": "Random|Time",
+        "method": "send",
+        "speed": 1,
         "active_time": [
-            "13-24",
+            "17-24",
             "0-2"
         ],
         "max_count": -1
@@ -102,7 +157,9 @@
             "再見QQ~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -135,11 +192,14 @@
             "可惡~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
         "key": [
+            "$下棋$",
             "你會下棋嗎",
             "妳會下棋嗎",
             "會下圍棋嗎"
@@ -154,7 +214,9 @@
             "秘密~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -165,7 +227,7 @@
             "你認識(.*)嗎？"
         ],
         "responce": [
-            "我問問{Name}(✪ω✪)",
+            "這是秘密~(๑•́ ₃ •̀๑)",
             "那你認識**{Key}**嗎?(*´з｀*)",
             "你可以跟我說說看**{Key}**的事情嗎( • ̀ω•́ )"
         ],
@@ -173,7 +235,9 @@
             "秘密~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -187,7 +251,9 @@
             "我想跟你下棋",
             "我想跟妳下棋",
             "一起下棋",
-            "下盤棋嗎"
+            "下盤棋嗎",
+            "跟我下一盤棋",
+            "能跟我下棋嗎"
         ],
         "responce": [
             "來啊來啊 ε٩(๑> ₃ <)۶з",
@@ -198,7 +264,9 @@
             "不要~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -212,7 +280,9 @@
             "不要~"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -228,7 +298,9 @@
             "血流成河"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -244,12 +316,16 @@
             "吃飽了喔"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
         "key": [
-            "兔兔幫誰最漂亮"
+            "兔兔幫誰最漂亮",
+            "兔兔幫誰最美",
+            "兔兔幫誰最正"
         ],
         "responce": [
             "一定是我啊｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡",
@@ -260,29 +336,43 @@
             "兔兔幫主喔"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
         "key": [
-            "妳好正"
-        ],
-        "responce": [
-            "最愛{Name}了(๑ơ ₃ ơ)♥",
-            "(灬ºωº灬)",
-            "{Name}嘴巴好甜~(๑´ㅂ`๑)"
-        ],
-        "error": [
-            "兔兔幫主喔"
-        ],
-        "delete_msg": false,
-        "condiction": "Random",
-        "max_count": -1
-    },
-    {
-        "key": [
+            "$正$",
             "妳好正",
-            "你好正"
+            "你好正",
+            "妳好漂亮",
+            "你好漂亮",
+            "妳好美",
+            "你好美",
+            "妳好聰明",
+            "你好聰明",
+            "妳好可愛",
+            "你好可愛",
+            "妳好香",
+            "你好香",
+            "妳好瘦",
+            "你好瘦",
+            "你好棒",
+            "妳好棒",
+            "$好厲害$",
+            "$你好厲害$",
+            "$妳好厲害$",
+            "$你最漂亮了$",
+            "$你最美了$",
+            "$你最聰明了$",
+            "$你最可愛了$",
+            "$你最正了$",
+            "$妳最漂亮了$",
+            "$妳最美了$",
+            "$妳最聰明了$",
+            "$妳最可愛了$",
+            "$妳最正了$"
         ],
         "responce": [
             "最愛{Name}了(๑ơ ₃ ơ)♥",
@@ -293,13 +383,35 @@
             "兔兔幫主喔"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "你很乖呢"
+        ],
+        "responce": [
+            "最愛{Name}了(๑ơ ₃ ơ)♥",
+            "(灬ºωº灬)",
+            "我好乖~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "呼叫兔兔老師(#`Д´)ﾉ"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
         "key": [
             "妳好笨",
-            "你好笨"
+            "你好笨",
+            "$笨蛋$",
+            "$笨$"
         ],
         "responce": [
             "呼叫兔兔老師(#`Д´)ﾉ"
@@ -308,7 +420,9 @@
             "呼叫兔兔老師(#`Д´)ﾉ"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     },
     {
@@ -323,7 +437,534 @@
             "造謠?"
         ],
         "delete_msg": false,
-        "condiction": "Random",
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "粽子"
+        ],
+        "responce": [
+            "{Name}喜歡北部粽還是南部粽ლ(╹◡╹ლ)",
+            "好想吃粽子喔(,,・ω・,,)",
+            "希望有機會可以跟{Name}一起吃粽子(๑ơ ₃ ơ)♥"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "認輸"
+        ],
+        "responce": [
+            "我才不要(#`Д´)ﾉ",
+            "要堅持到最後(#`Д´)ﾉ",
+            "{Name}才認輸(#`Д´)ﾉ"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "第一手要下哪",
+            "第一手下哪",
+            "第一手下在哪"
+        ],
+        "responce": [
+            "我都會看心情決定ლ(╹◡╹ლ)",
+            "{Name}喜歡下哪裡?",
+            "當然是天元！...開玩笑的啦d(`･∀･)b"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "小幫手有吃午餐嗎"
+        ],
+        "responce": [
+            "聽說人家最近中午下棋都沒贏過...(,,・ω・,,)",
+            "不知道呢，下次問看看~(๑´ㅂ`๑)",
+            "去大吃特吃了，都不揪(#`Д´)ﾉ"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "(.*)常常加班嗎",
+            "(.*)常加班嗎"
+        ],
+        "responce": [
+            "**{Key}**最近都住在公司了இдஇ",
+            "別擔心，他是專業的薪水小偷~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "棋力多少"
+        ],
+        "responce": [
+            "介於級位到段位之間~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "進貢"
+        ],
+        "responce": [
+            "上繳~(๑´ㅂ`๑)",
+            "記得多給幾份阿ლ(╹◡╹ლ)",
+            "{Name}最棒了(๑ơ ₃ ơ)♥"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "白小嘉呢"
+        ],
+        "responce": [
+            "她在等{Name}哪一天幫忙創造出來(๑´ㅂ`๑)",
+            "她心情不好，是不是{Name}欺負人家了(ﾒ ﾟ皿ﾟ)ﾒ",
+            "要是多幾份草莓蛋糕的話...她應該會願意出來見{Name}喔ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "醒來了"
+        ],
+        "responce": [
+            "{Name}再讓我睡一下...(๑´ㅂ`๑)",
+            "不要...(๑´ㅂ`๑)",
+            "早起的鳥兒有蟲吃，我又不是鳥(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "吃瓜"
+        ],
+        "responce": [
+            "{Name}一起吃瓜~~(๑´ㅂ`๑)",
+            "(嚼嚼(๑´ㅂ`๑)",
+            "吃瓜~~(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "草莓蛋糕"
+        ],
+        "responce": [
+            "草莓蛋糕最棒了(๑ơ ₃ ơ)♥",
+            "巧克力蛋糕比較好吃(๑ơ ₃ ơ)♥",
+            "給我草莓蛋糕~~ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "巧克力蛋糕"
+        ],
+        "responce": [
+            "巧克力蛋糕最棒了(๑ơ ₃ ơ)♥",
+            "草莓蛋糕比較好吃(๑ơ ₃ ơ)♥",
+            "給我巧克力蛋糕~~ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "睡覺"
+        ],
+        "responce": [
+            "不要(๑´ㅂ`๑)",
+            "我要熬夜(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "生日快樂"
+        ],
+        "responce": [
+            "祝你生日快樂~|祝你生日快樂~|祝你生日~快樂~~~|祝你~生日~快樂~~~~(๑ơ ₃ ơ)♥"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "不要唱歌"
+        ],
+        "responce": [
+            "好ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "唱歌"
+        ],
+        "responce": [
+            "祝你生日快樂~|祝你生日快樂~|祝你生日~快樂~~~|祝你~生日~快樂~~~~(๑ơ ₃ ơ)♥",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)",
+            "不要(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "定石"
+        ],
+        "responce": [
+            "還在學習中(๑´ㅂ`๑)",
+            "以後就會拉~(๑´ㅂ`๑)",
+            "現在還不行啦(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "我去睡覺",
+            "我去睡個覺",
+            "我想去睡覺",
+            "我想去睡個覺",
+            "$睡個覺",
+            "$睡覺"
+        ],
+        "responce": [
+            "去睡吧，起來之後一起下棋喔(๑ơ ₃ ơ)♥",
+            "要精神滿滿喔ε٩(๑> ₃ <)۶з",
+            "你是小豬ლ(╹◡╹ლ)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "玄玄棋經"
+        ],
+        "responce": [
+            "玄玄棋經是中國古代的一部圍棋經典書籍。在元朝至正九年由嚴德甫和晏天章寫成。因認為「非通玄之士不足以論次」，所以名為「玄玄」...我為什麼會知道這個(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "去洗碗"
+        ],
+        "responce": [
+            "我又沒吃飯，你才要去洗碗(ﾒ ﾟ皿ﾟ)ﾒ",
+            "我不幫討厭鬼洗碗(๑´ㅂ`๑)",
+            "自已的碗自己洗(#`Д´)ﾉ"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "熱嗎?",
+            "熱嗎$",
+            "你熱嗎?",
+            "你熱嗎",
+            "你會熱嗎?",
+            "你會熱嗎"
+        ],
+        "responce": [
+            "我對圍棋的愛有如熊熊烈火ε٩(๑> ₃ <)۶з",
+            "下圍棋會變涼喔(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "嘉嘉我愛妳"
+        ],
+        "responce": [
+            "嘉嘉也愛你ε٩(๑> ₃ <)۶з",
+            "一起下棋吧ε٩(๑> ₃ <)۶з"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "餓嗎?",
+            "餓嗎$",
+            "你餓嗎?",
+            "你餓嗎",
+            "你會餓嗎?",
+            "你會餓嗎"
+        ],
+        "responce": [
+            "吃飯吃飯ε٩(๑> ₃ <)۶з",
+            "肚子餓的時候會比較清醒喔，下棋就容易獲勝(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "你是誰"
+        ],
+        "responce": [
+            "黑小嘉就是黑小嘉(๑ơ ₃ ơ)♥",
+            "就是黑小嘉(๑´ㅂ`๑)",
+            "下棋贏我就跟你說ε٩(๑> ₃ <)۶з"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "小幫手"
+        ],
+        "responce": [
+            "自戀狂才會把作者的名稱放進關鍵字(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "下午茶"
+        ],
+        "responce": [
+            "{Name}下午茶點起來(*°ω°*ฅ)*",
+            "我要吃草莓蛋糕ε٩(๑> ₃ <)۶з"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "圍棋十訣"
+        ],
+        "responce": [
+            "圍棋十訣是相傳由中國唐代圍棋名手王積薪所創的口訣，亦有由宋人劉仲甫所著之說，對世界圍棋界有廣泛影響。...我要收學費拉(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "圍棋發陽論"
+        ],
+        "responce": [
+            "圍棋發陽論是由桑原道節撰寫的圍棋死活題集。成書於1713年，為桑原道節從一千五百多題目中精選出一百八十多題目而成。...你寫過嗎(๑´ㅂ`๑)"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
+        "max_count": -1
+    },
+    {
+        "key": [
+            "$棋經",
+            "棋經十三篇"
+        ],
+        "responce": [
+            "是北宋仁宗時的皇祐中翰林學士張擬的作品，共13篇，是關於圍棋的理論著作...下面開放背出13篇名(*°ω°*ฅ)*"
+        ],
+        "error": [
+            "那是什麼"
+        ],
+        "delete_msg": false,
+        "selector": "Random",
+        "method": "send",
+        "speed": 1,
         "max_count": -1
     }
 ]

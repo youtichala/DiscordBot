@@ -1,2 +1,19 @@
 # DiscordGoBot
-åœæ£‹å°å¹«æ‰‹
+³ò´Ñ¤pÀ°¤â
+
+# ¨Ï¥Î»¡©ú
+¥»³nÅé¨Ï¥Î Python 3.9.2-3¡A°£¦¹¤§¥~ÁÙ¥]§t : </br>
+<ol>
+<li>pip install requests</li>
+<li>pip install Pillow</li>
+<li>pip install git+https://github.com/Rapptz/discord.py</li>
+</ol>
+
+# ÃB¥~³]©w - µn¿ıÀÉ
+¥²¶·­nÃB¥~¦b®Ú¥Ø¿ı¥[¤Wµù¥U¥ÎÀÉ®× : <strong>bot_token.py</strong></br>
+</br>
+ÀÉ®×¤º³¡¥]§t¨â­ÓÅÜ¼Æ :</br>
+<ol>
+<li><strong>key</strong> : [Discordª÷Æ_]</li>
+<li><strong>Owner</strong> : [¾Ö¦³ªÌDC½s¸¹]</li>
+</ol>

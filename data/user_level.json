@@ -1,46 +1,40 @@
 [
-{
-"user_id": 0,
-"exp": 50
-},
-{
-"user_id": 671226885467930641,
-"exp": 6
-},
-{
-"user_id": 459654179519070208,
-"exp": 41
-},
-{
-"user_id": 692758123089231872,
-"exp": 11
-},
-{
-"user_id": 914075747092664371,
-"exp": 2
-},
-{
-"user_id": 930686019089625119,
-"exp": 2
-},
-{
-"user_id": 930320450226102382,
-"exp": 1
-},
-{
-"user_id": 736124078489862205,
-"exp": 5
-},
-{
-"user_id": 875252704383995945,
-"exp": 2
-},
-{
-"user_id": 568446329244876813,
-"exp": 1
-},
-{
-"user_id": 930678591258247198,
-"exp": 1
-}
+    {
+        "user_id": 111111111111111111111,
+        "user_name": "AAA",
+        "user_nick": "",
+        "exp": 1,
+        "chat_clock": "1660109276",
+        "avatar": {
+            "gender": "female",
+            "hair_style": "05",
+            "wear_style": "03",
+            "skin_color": "235,225,216",
+            "blusher_color": "240,205,174",
+            "hair_color": "240,228,65",
+            "hair_decoration1_color": "197,99,29",
+            "hair_decoration2_color": "240,120,180",
+            "wear_decoration1_color": "110,79,41",
+            "wear_decoration2_color": "240,168,96"
+        }
+    },
+    {
+        "user_id": 22222222222222222,
+        "user_name": "BBBB",
+        "user_nick": "",
+        "exp": 1,
+        "chat_clock": "1660117184",
+        "avatar": {
+            "gender": "female",
+            "hair_style": "05",
+            "wear_style": "06",
+            "skin_color": "240,230,224",
+            "blusher_color": "235,225,216",
+            "hair_color": "240,228,65",
+            "hair_decoration1_color": "239,228,196",
+            "hair_decoration2_color": "239,228,196",
+            "wear_decoration1_color": "90,36,90",
+            "wear_decoration2_color": "110,79,41"
+        }
+    }
 ]
