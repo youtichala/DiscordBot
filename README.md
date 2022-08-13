@@ -1,19 +1,19 @@
-# DiscordGoBot
-³ò´Ñ¤pÀ°¤â
+# DiscordBot
+åœæ£‹å°å¹«æ‰‹
 
-# ¨Ï¥Î»¡©ú
-¥»³nÅé¨Ï¥Î Python 3.9.2-3¡A°£¦¹¤§¥~ÁÙ¥]§t : </br>
+# ä½¿ç”¨èªªæ˜Ž
+æœ¬è»Ÿé«”ä½¿ç”¨ Python 3.9.2-3ï¼Œé™¤æ­¤ä¹‹å¤–é‚„åŒ…å« : </br>
 <ol>
 <li>pip install requests</li>
 <li>pip install Pillow</li>
 <li>pip install git+https://github.com/Rapptz/discord.py</li>
 </ol>
 
-# ÃB¥~³]©w - µn¿ýÀÉ
-¥²¶·­nÃB¥~¦b®Ú¥Ø¿ý¥[¤Wµù¥U¥ÎÀÉ®× : <strong>bot_token.py</strong></br>
+# é¡å¤–è¨­å®š - ç™»éŒ„æª”
+å¿…é ˆè¦é¡å¤–åœ¨æ ¹ç›®éŒ„åŠ ä¸Šè¨»å†Šç”¨æª”æ¡ˆ : <strong>bot_token.py</strong></br>
 </br>
-ÀÉ®×¤º³¡¥]§t¨â­ÓÅÜ¼Æ :</br>
+æª”æ¡ˆå…§éƒ¨åŒ…å«å…©å€‹è®Šæ•¸ :</br>
 <ol>
-<li><strong>key</strong> : [Discordª÷Æ_]</li>
-<li><strong>Owner</strong> : [¾Ö¦³ªÌDC½s¸¹]</li>
+<li><strong>key</strong> : [Discordé‡‘é‘°]</li>
+<li><strong>Owner</strong> : [æ“æœ‰è€…DCç·¨è™Ÿ]</li>
 </ol>
